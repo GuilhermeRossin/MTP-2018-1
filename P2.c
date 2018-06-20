@@ -17,7 +17,7 @@ int main()
 	{
 		case 1:
 			printf("\nDigite o numero binario: ");
-			scanf("%s", &num);
+			scanf("%s", num);
 			getchar();
 			while(num[i] != '\0'){
 				i++;
@@ -38,7 +38,7 @@ int main()
 			return 0;
 		case 2:
 			printf("\nDigite o numero binario: ");
-			scanf("%s", &num_bin);
+			scanf("%s", num_bin);
 			getchar();
 			for(i = 0; num_bin[i] != '\0'; i++);
 				i--;
@@ -60,7 +60,7 @@ int main()
 			return 0;
 		case 3:
 			printf("\nDigite o numero hexadecimal: ");
-			scanf("%s", &num);
+			scanf("%s", num);
 			getchar();
 			while(num[i] != '\0'){
 					i++;
@@ -190,7 +190,7 @@ int main()
 				return 0;		
 		case 7:
 			printf("\nDigite o numero octal: ");
-			scanf("%s", &num);
+			scanf("%s", num);
 			getchar();
 			while(num[i] != '\0'){
 				i++;
