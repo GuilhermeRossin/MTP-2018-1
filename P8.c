@@ -4,8 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 void gera_numeros(float * vetor, int tam) {
-	int i; 
-	float num; 
+	int i;  
 	for(i = 0; i < tam; i++) 
 		vetor[i] = (float) rand()/(float) RAND_MAX + 0.5f;}
 float soma_vet(float v[], int n){
@@ -19,12 +18,13 @@ float produto(float v[], int n){
 	float mult = 1.0f;
 	for(int i=0; i<n; i++)
 		mult = mult*v[i];
-	return mult;}
+	return mult;
+}
 
 int main(){
 	srand(123456);
 	//printf("%d\n", rand()); 
-	int opcao, n=100, soma;
+	int opcao, n=100;
 	float num[100];
 	gera_numeros(num, n);
 	do{
