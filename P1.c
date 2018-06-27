@@ -29,6 +29,6 @@ int main(){
 	if(estado == 0)
 		printf("\nE multiplo de 3.");
 	else
-		printf("\nNao e");
+		printf("\nNao");
 	return 0;
 }
