@@ -6,7 +6,6 @@
 float media(int soma, float cont){
 	float resul;
 	resul = soma/cont;
-	printf("\n%f", resul);
 	return resul;
 }
 int soma_vet(int v[20], int n) {
@@ -27,6 +26,5 @@ int main(){
 		getchar();
 		if(num[i] != 0) cont++;}
 	soma = (soma_vet(num, tam));
-	printf("%d", soma);
 	printf("\n%f", media(soma, cont));
 	return 0;}
